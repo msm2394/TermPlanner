@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F7F9FC;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#112E81;
+}
+
+.container{
+
+    max-width:800px;
+    margin:60px auto;
+    padding:40px;
+
+    background:white;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    color:#112E81;
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#4647AE;
+
+    margin-bottom:25px;
+}
+
+hr{
+
+    border:none;
+
+    border-top:2px solid #AACCD6;
+
+    margin-bottom:30px;
+}
+
+h2{
+
+    margin-bottom:15px;
+
+    color:#112E81;
+}
+
+p{
+
+    margin-bottom:20px;
+
+    line-height:1.6;
+}
+
+ul{
+
+    margin-left:20px;
+
+    margin-bottom:35px;
+}
+
+li{
+
+    margin-bottom:8px;
+}
+
+.download-button{
+
+    display:block;
+
+    width:250px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    background:#4382DF;
+
+    color:white;
+
+    padding:16px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.2s;
+}
+
+.download-button:hover{
+
+    background:#112E81;
+}
+
+footer{
+
+    text-align:center;
+
+    margin-top:40px;
+
+    color:#4647AE;
+
+    font-size:.9rem;
+}
